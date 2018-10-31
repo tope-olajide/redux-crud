@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; // import the connect() function provided by the react-redux library
 
 import {connect} from 'react-redux'; // import the connect() function provided by the react-redux library
 
