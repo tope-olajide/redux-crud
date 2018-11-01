@@ -18,7 +18,7 @@ import postReducer from './reducers/postReducer';
 const store = createStore(postReducer);/* createStore method will allow us to create store and save it inside store
 variable. This method needs a special argument and this argument goes by a special name called the ‘reducer’. */
 ReactDOM.render(
-<Provider store={store}>
+<Provider store={store}> {/* the Provider component takes the store as a prop. */}
 <App />
 </Provider>,/* Here we are wrapping the App component which is our parent component with the Provider component so 
 that all the child components in our app can get access to the store. */
